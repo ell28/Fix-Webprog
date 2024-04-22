@@ -91,7 +91,7 @@ if (isset($_SESSION['user_id'])) {
                     </tr>
                     <tr>
                         <td>Job Description</td>
-                        <td> : (FrontEnd & BackEnd)</td>
+                        <td> :Homepage, Forum (FrontEnd & BackEnd)</td>
                     </tr>
                 </table>
             </div>
@@ -106,7 +106,7 @@ if (isset($_SESSION['user_id'])) {
                     </tr>
                     <tr>
                         <td>Job Description</td>
-                        <td> : Homepage, Forum (FrontEnd & BackEnd)</td>
+                        <td> : Homepage, Aboutus, Forum (FrontEnd & BackEnd)</td>
                     </tr>
                 </table>
             </div>
@@ -137,7 +137,7 @@ if (isset($_SESSION['user_id'])) {
                     </tr>   
                     <tr>
                         <td>Job Description</td>
-                        <td> : Homepage, Register, Login, LogOut, Edit Profile, Forum, Aboutus, AdminPage, Explore, Addgame (FrontEnd & BackEnd)</td>
+                        <td> : Homepage, Register, Login, LogOut, Edit Profile, Forum, AdminPage, Explore, CRUD Game (FrontEnd & BackEnd)</td>
                     </tr>
                 </table>
             </div>
