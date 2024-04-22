@@ -62,6 +62,17 @@ if (isset($_SESSION['user_id'])) {
       <!-- NAV BUTTON -->
       <nav>
         <ul>
+        <?php if (isset($user_id)) {
+                            $role_type = mysqli_query($conn, "SELECT role_type FROM user_form WHERE id = '$user_id'");
+                        if (mysqli_num_rows($role_type) > 0) {
+                            $role = mysqli_fetch_assoc($role_type);
+                            if ($role['role_type'] == 'admin') {
+                                    echo '<li><a href="adminpage.php">ADMIN</a></li>';
+                                }
+                            }
+                        }
+
+        ?>
           <li><a href="explore.php" class="active">EXPLORE</a></li>
           <li><a href="forum.php">FORUM</a></li>
           <li><a href="aboutus.php">ABOUT US</a></li>
