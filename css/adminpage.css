@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --purple: #cc4ddd;
+  --light-purple: #d791e5;
+  --blue: #3789e7;
+  --light-blue: #8ac4e6;
+  --orange: #ff8400;
+  --light-orange: #ffa559;
+  --red: #ff1900;
+  --light-red: #e05e5e;
+  --black: #131313;
+  --white: #ffffff;
+  --light-bg: #e4e2e2;
+  --gray-bg: #d8d3d3;
+  --box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+body {
+  background-color: #131313;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 6px 17px 0px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 10px 6px 17px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 6px 17px 0px rgba(0, 0, 0, 0.29);
+  margin: auto;
+}
+
+.table-head-row {
+  background-color: lightskyblue;
+  padding: 1rem;
+  background: linear-gradient(110deg, #030000, #b44006);
+  color: white;
+}
+
+.table-head-row th {
+  padding: 1rem;
+}
+
+.table-body-row td {
+  padding: 1rem;
+  text-align: center;
+}
+
+.table-body tr:nth-child(odd) {
+  background-color: #262626;
+}
+
+.table-body tr:nth-child(even) {
+  background-color: #363636;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-delete {
+  background-color: red;
+  border: 1px solid red;
+}
+.btn-edit {
+  background-color: var(--light-blue);
+  border: 1px solid var(--light-blue);
+}
+.btn-reset {
+  background-color: black;
+  border: 1px solid black;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 10px;
+}
+.link-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.name-input {
+  display: block;
+  background-color: rgb(206, 206, 206);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+td {
+  color: white;
+}
+
+.container{ 
+  position: relative;
+}
+
+.btn-back {
+  background-color: rgb(211, 106, 20);
+  border: 1px solid black;
+  margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
