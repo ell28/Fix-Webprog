@@ -94,7 +94,7 @@
             xhr.send();
         });
     </script>
-    <a class='btn btn-back' href='login.php'>Back to login page</a>
+    <a class='btn btn-back' href='index.php'>Back to home page</a>
 
 </body>
 
