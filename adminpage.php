@@ -23,7 +23,6 @@
             <tr class="table-head-row">
                 <th>Name</th>
                 <th>Email</th>
-                <th>Password</th>
                 <th>Image</th>
                 <th>Action</th>
             </tr>
@@ -48,7 +47,6 @@
                     echo "<tr class='table-body-row'>";
                     echo "<td>" . $row['name'] . "</td>";
                     echo "<td>" . $row['email'] . "</td>";
-                    echo "<td>" . $row['password'] . "</td>";
                     echo "<td>" . $row['image'] . "</td>";
 
                     echo "<td><div class='link-wrapper'><a class='btn btn-delete' href='?id=" . $row['id'] . "'>Delete</a>";
