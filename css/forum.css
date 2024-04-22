@@ -1,5 +1,5 @@
 .forumBody {
-  background: teal;
+  background: linear-gradient(110deg,#030000, rgb(21, 195, 195));
 }
 
 .forumBody:before {
@@ -9,7 +9,7 @@
   left: 0;
   width: 1250px;
   height: 2000px;
-  background: #000;
+  background: linear-gradient(110deg,#030000, rgb(42, 44, 44));
   transform: skew(-15deg);
   transform-origin: top;
   z-index: -2;

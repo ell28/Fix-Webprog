@@ -82,9 +82,21 @@ if (isset($_SESSION['user_id'])) {
         </header>
 
         <div class="container2">
-            <div class="topimage">
-                <img class="image" src="assets/about-us/MatthewTheDreamer.jpg" alt="About Us Image">
+            <div class="text">
+                <h1>Darren Setiawan</h1>
+                <table class="description">
+                    <tr>
+                        <td>NIM</td>
+                        <td> : 1122011</td>
+                    </tr>
+                    <tr>
+                        <td>Job Description</td>
+                        <td> : (FrontEnd & BackEnd)</td>
+                    </tr>
+                </table>
             </div>
+        </div>
+        <div class="container2">
             <div class="text">
                 <h1>Gregory Jason Andrew Matthew</h1>
                 <table class="description">
@@ -92,42 +104,40 @@ if (isset($_SESSION['user_id'])) {
                         <td>NIM</td>
                         <td> : 1122033</td>
                     </tr>
-                </table>
-            </div>
-        </div>
-        <div class="container2">
-            <img class="image" src="assets/about-us/StevenThePhilosopher.jpg" alt="About Us Image">
-            <div class="text">
-                <h1>Steven</h1>
-                <table class="description">
                     <tr>
-                        <td>NIM</td>
-                        <td> : 1122021</td>
+                        <td>Job Description</td>
+                        <td> : Homepage, Forum (FrontEnd & BackEnd)</td>
                     </tr>
                 </table>
             </div>
         </div>
         <div class="container2">
-            <img class="image" src="assets/about-us/JoyBusinessman.jpg" alt="About Us Image">
             <div class="text">
-                <h1>Rafael Joy Hadi</h1>
+                <h1>Aqbil Dzaky Nauval</h1>
                 <table class="description">
                     <tr>
                         <td>NIM</td>
-                        <td> : 1122005</td>
+                        <td> : 1122036</td>
+                    </tr>
+                    <tr>
+                        <td>Job Description</td>
+                        <td> : Register, Login, LogOut, Edit Profile (FrontEnd & BackEnd)</td>
                     </tr>
                 </table>
 
             </div>
         </div>
         <div class="container2">
-            <img class="image" src="assets/about-us/MarcelTheIdol.jpg" alt="About Us Image">
             <div class="text">
-                <h1>Marcel Andrean (Semester 1)</h1>
+                <h1>Eliezer Christian</h1>
                 <table class="description">
                     <tr>
                         <td>NIM</td>
-                        <td> : 1122017</td>
+                        <td> : 1122043</td>
+                    </tr>   
+                    <tr>
+                        <td>Job Description</td>
+                        <td> : Homepage, Register, Login, LogOut, Edit Profile, Forum, Aboutus, AdminPage, Explore, Addgame (FrontEnd & BackEnd)</td>
                     </tr>
                 </table>
             </div>
