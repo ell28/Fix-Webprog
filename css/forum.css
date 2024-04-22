@@ -1,5 +1,5 @@
 .forumBody {
-  background: #d3c337;
+  background: teal;
 }
 
 .forumBody:before {
@@ -96,6 +96,7 @@ nav .active {
 }
 
 a:hover {
+  text-decoration: none;
   color: turquoise;
   text-shadow: 0 0 5px turquoise;
   opacity: 0.5;
