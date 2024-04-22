@@ -181,7 +181,7 @@ section:nth-child(2) p {
 }
 
 section:nth-child(2) .active {
-  background: rgb(46, 14, 0);
+  background: rgb(4, 56, 80);
   border-radius: 20px;
 }
 
