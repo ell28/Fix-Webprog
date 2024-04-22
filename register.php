@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
         } else if ($image_size > 2000000) { // 2 MB
             $message[] = 'Image size is too large';
         } else {
-            $insert = mysqli_query($conn, "INSERT INTO user_form (name, email, password, image) VALUES('$name', '$email', '$pass', '$image')");
+            $insert = mysqli_query($conn, "INSERT INTO user_form (name, email, password, image, role_type) VALUES('$name', '$email', '$pass', '$image', 'user')");
             if ($insert) {
                 move_uploaded_file($image_tmp_name, $image_folder);
                 $message[] = 'Registered successfully.';

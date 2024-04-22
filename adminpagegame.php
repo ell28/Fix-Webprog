@@ -19,6 +19,7 @@
     </form>
     <div id="container">
         <table class="table">
+        <h3 class="table-title">Game List</h3>
             <tr class="table-head-row">
                 <th>Name</th>
                 <th>Developer Name</th>
