@@ -52,7 +52,6 @@
                     echo "<td>" . $row['image'] . "</td>";
 
                     echo "<td><div class='link-wrapper'><a class='btn btn-delete' href='?id=" . $row['id'] . "'>Delete</a>";
-                    echo "<a class='btn btn-edit' href='edit.php?id=" . $row['id'] . "'>Edit Name</a></div></td>";
                     echo "</tr>";
                     $user .= "<user>";
                     $user .= "<name>" . $row['name'] . "</name>";

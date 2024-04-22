@@ -13,7 +13,7 @@ include "config.php";
                 <?php
                 if (isset($_GET['id'])) {
                     $id = $_GET['id'];
-                    $sql = "SELECT * FROM `user_form` WHERE id=$id";
+                    $sql = "SELECT * FROM `game_form` WHERE id=$id";
 
                     $result = $conn->query($sql);
 
@@ -40,11 +40,11 @@ include "config.php";
     if (isset($_POST["submit"])) {
         $name = $_POST['newName'];
 
-        $sql = "UPDATE user_form SET name = '$name' WHERE id=$id";
+        $sql = "UPDATE game_form SET name = '$name' WHERE id=$id";
 
         if (mysqli_query($conn, $sql)) {
             echo "Nama berhasil diganti menjadi : " . $name . " <br>";
-            echo "<a href = 'adminpage.php'>Back</a>";
+            echo "<a href = 'adminpagegame.php'>Back</a>";
         }
     }
     ?>

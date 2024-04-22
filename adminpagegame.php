@@ -97,6 +97,9 @@
         });
     </script>
     <a class='btn btn-back' href='adminpage.php'>Back to User Page</a>
+    <br>
+    <br>
+    <a class='btn btn-back' href='addgame.php'>Add a New Game</a>
 
 </body>
 
