@@ -64,7 +64,7 @@ table {
 .table-head-row {
   background-color: lightskyblue;
   padding: 1rem;
-  background: linear-gradient(110deg, #030000, #b44006);
+  background: linear-gradient(110deg, #030000, teal);
   color: white;
 }
 
