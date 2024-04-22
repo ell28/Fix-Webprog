@@ -129,7 +129,7 @@ if (isset($_SESSION['user_id'])) {
         </div>
         <div class="container2">
             <div class="text">
-                <h1>Eliezer Christian</h1>
+                <h1>Elliezer Christian</h1>
                 <table class="description">
                     <tr>
                         <td>NIM</td>
